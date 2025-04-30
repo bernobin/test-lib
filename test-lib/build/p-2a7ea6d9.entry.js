@@ -1,0 +1,2 @@
+import{r,h as a}from"./p-C53XO-3l.js";const e="p{color:red;font-size:1.25rem}";const s=class{constructor(a){r(this,a)}render(){return a("p",{key:"f6c3e2c3f55659d0ca03bd0cdc4add25b74e76af"},"This is a red paragraph!")}};s.style=e;export{s as red_paragraph};
+//# sourceMappingURL=p-2a7ea6d9.entry.js.map

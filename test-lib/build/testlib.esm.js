@@ -1,0 +1,2 @@
+import{p as r,b as a}from"./p-C53XO-3l.js";export{s as setNonce}from"./p-C53XO-3l.js";import{g as p}from"./p-DQuL1Twl.js";var t=()=>{const a=import.meta.url;const s={};if(a!==""){s.resourcesUrl=new URL(".",a).href}return r(s)};t().then((async r=>{await p();return a([["p-2a7ea6d9",[[1,"red-paragraph"]]]],r)}));
+//# sourceMappingURL=testlib.esm.js.map
