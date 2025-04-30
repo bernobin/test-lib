@@ -1,0 +1,2 @@
+import{r as t,h as s}from"./p-DPNNniCs.js";function r(t,s,r){return(t||"")+(s?` ${s}`:"")+(r?` ${r}`:"")}const e="";const i=class{constructor(s){t(this,s)}first;middle;last;getText(){return r(this.first,this.middle,this.last)}render(){return s("div",{key:"18f5c9cc22d9308276863a984976c809e20a453e"},"Hello, World! I'm ",this.getText())}};i.style=e;export{i as M,r as f};
+//# sourceMappingURL=p-4KzaNok0.js.map

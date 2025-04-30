@@ -1,2 +1,2 @@
-import{p as r,b as a}from"./p-C53XO-3l.js";export{s as setNonce}from"./p-C53XO-3l.js";import{g as p}from"./p-DQuL1Twl.js";var t=()=>{const a=import.meta.url;const s={};if(a!==""){s.resourcesUrl=new URL(".",a).href}return r(s)};t().then((async r=>{await p();return a([["p-2a7ea6d9",[[1,"red-paragraph"]]]],r)}));
+import{p as r,b as a}from"./p-DPNNniCs.js";export{s as setNonce}from"./p-DPNNniCs.js";import{g as t}from"./p-DQuL1Twl.js";var p=()=>{const s=import.meta.url;const a={};if(s!==""){a.resourcesUrl=new URL(".",s).href}return r(a)};p().then((async r=>{await t();return a([["p-6b3a3b82",[[1,"my-component",{first:[1],middle:[1],last:[1]}]]],["p-97f7152d",[[1,"red-paragraph"]]]],r)}));
 //# sourceMappingURL=testlib.esm.js.map

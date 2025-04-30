@@ -1,2 +1,2 @@
-export{red_paragraph as RedParagraph}from"./red-paragraph.entry.esm.js";import"./p-C53XO-3l.js";function r(r,a,p){return(r||"")+(a?` ${a}`:"")+(p?` ${p}`:"")}export{r as format};
+export{M as MyComponent,f as format}from"./p-4KzaNok0.js";export{red_paragraph as RedParagraph}from"./red-paragraph.entry.esm.js";import"./p-DPNNniCs.js";
 //# sourceMappingURL=index.esm.js.map

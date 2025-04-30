@@ -1,0 +1,2 @@
+import{r,h as a}from"./p-DPNNniCs.js";const s="p{color:red;font-size:1.25rem}";const e=class{constructor(a){r(this,a)}render(){return a("p",{key:"f6c3e2c3f55659d0ca03bd0cdc4add25b74e76af"},"This is a red paragraph!")}};e.style=s;export{e as red_paragraph};
+//# sourceMappingURL=p-97f7152d.entry.js.map
