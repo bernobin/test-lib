@@ -6,10 +6,21 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface MyComponent {
+        "first": string;
+        "last": string;
+        "middle": string;
+    }
     interface RedParagraph {
     }
 }
 declare global {
+    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    }
+    var HTMLMyComponentElement: {
+        prototype: HTMLMyComponentElement;
+        new (): HTMLMyComponentElement;
+    };
     interface HTMLRedParagraphElement extends Components.RedParagraph, HTMLStencilElement {
     }
     var HTMLRedParagraphElement: {
@@ -17,13 +28,20 @@ declare global {
         new (): HTMLRedParagraphElement;
     };
     interface HTMLElementTagNameMap {
+        "my-component": HTMLMyComponentElement;
         "red-paragraph": HTMLRedParagraphElement;
     }
 }
 declare namespace LocalJSX {
+    interface MyComponent {
+        "first"?: string;
+        "last"?: string;
+        "middle"?: string;
+    }
     interface RedParagraph {
     }
     interface IntrinsicElements {
+        "my-component": MyComponent;
         "red-paragraph": RedParagraph;
     }
 }
@@ -31,6 +49,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
             "red-paragraph": LocalJSX.RedParagraph & JSXBase.HTMLAttributes<HTMLRedParagraphElement>;
         }
     }
